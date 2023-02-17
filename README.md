@@ -29,7 +29,8 @@ configuration by adding the following code to your **mason.yaml** file:
 ```yaml
 bricks:
   clean_architecture_feature:
-    git: https://github.com/jigarfumakiya/clean_architecture_feature_brick.git
+  git:
+    url: https://github.com/jigarfumakiya/clean_architecture_feature.git
 ```
 
 
