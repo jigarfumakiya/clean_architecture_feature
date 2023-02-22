@@ -13,11 +13,9 @@ A few resources to get you started if this is your first brick template:
 
 - [Official Mason Documentation][2]
 
-
 [1]: https://github.com/felangel/mason
+
 [2]: https://github.com/felangel/mason/tree/master/packages/mason_cli#readme
-
-
 
 # Installation
 
@@ -26,15 +24,14 @@ the [installation guide](https://docs.brickhub.dev/category/getting-started) to 
 
 Once you have Mason installed, you can add the clean_architecture_feature brick to your Mason
 configuration by adding the following code to your **mason.yaml** file:
+
 ```yaml
 bricks:
-  clean_architecture_feature:
-  git:
-    url: https://github.com/jigarfumakiya/clean_architecture_feature.git
+  clean_architecture_feature: 0.0.1
 ```
 
-
 # Usage
+
 To use the clean_architecture_feature brick, you can run the following command in your terminal:
 
 ```sh
@@ -42,6 +39,7 @@ mason make clean_architecture_feature
 ```
 
 ## Variables ✨
+
 The following table outlines the variables that can be used when generating a new feature folder:
 
 | Variable | Description                | Required   | Type     |

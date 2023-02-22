@@ -1,10 +1,10 @@
 name: clean_architecture_feature
-description:  A building block to easily create feature folders using the Clean Architecture approach.
-
+description: A building block to easily create feature folders using the Clean Architecture approach.
+repository: https://github.com/jigarfumakiya/clean_architecture_feature
+version: 0.0.1
 # The following defines the version and build number for your brick.
 # A version number is three numbers separated by dots, like 1.2.34
 # followed by an optional build number (separated by a +).
-version: 0.1.0+1
 
 # The following defines the environment for the current brick.
 # It includes the version of mason that the brick requires.
