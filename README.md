@@ -81,7 +81,7 @@ lib/
 
 Jigar Fumakiya - [Linkedin](https://www.linkedin.com/in/jigar-fumakiya-3080b8b7/)
 
-## If you found this package helpful,⭐ on GitHub Your support is greatly appreciated! 🙏🎉 🙏
+#### if you found this brick helpful, please consider showing your support by giving it a ⭐ on GitHub. Your support is greatly appreciated! 🙏🎉 Additionally, feel free to let me know if you have any suggestions for additional features.
 
 
 ## License 🍀
