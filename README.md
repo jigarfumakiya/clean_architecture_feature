@@ -81,7 +81,7 @@ lib/
 
 Jigar Fumakiya - [Linkedin](https://www.linkedin.com/in/jigar-fumakiya-3080b8b7/)
 
-## If you found this package helpful, give it a 👍 on pub.dev and a ⭐ on GitHub Your support is greatly appreciated! 🙏🎉 🙏
+## If you found this package helpful,⭐ on GitHub Your support is greatly appreciated! 🙏🎉 🙏
 
 
 ## License 🍀
