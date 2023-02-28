@@ -27,7 +27,6 @@ configuration by adding the following code to your **mason.yaml** file:
 
 ```yaml
 bricks:
-#  clean_architecture_feature: 0.0.2
   clean_architecture_feature: 0.0.2
 ```
 
@@ -47,7 +46,7 @@ The following table outlines the variables that can be used when generating a ne
 |----------------| -------------------------- |----------| -------- |
 | `feature_name` | 🏷️ Name of the feature              | `Yes`    | `string` |
 | `use_bloc`     | 🧱 Determine if you need BLoC for the feature or not              | `Yes`    | `bool` |
-| `test_dir`     | 🧱 Determine if you need BLoC for the feature or not              | `No`     | `bool` |
+| `test_dir`     | 📁 Determine if you need a test directory structure              | `No`     | `bool` |
 
 ## Output 📦
 
@@ -84,7 +83,6 @@ lib/
 Jigar Fumakiya - [Linkedin](https://www.linkedin.com/in/jigar-fumakiya-3080b8b7/)
 
 #### if you found this brick helpful, please consider showing your support by giving it a ⭐ on GitHub. Your support is greatly appreciated! 🙏🎉 Additionally, feel free to let me know if you have any suggestions for additional features.
-
 
 ## License 🍀
 
