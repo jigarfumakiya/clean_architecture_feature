@@ -1,9 +1,10 @@
 # Name and description of the brick
 name: clean_architecture_feature
 description: A building block to easily create feature folders using the Clean Architecture approach.
+repository: https://github.com/jigarfumakiya/clean_architecture_feature
 
 # Version and build number of the brick
-version: 0.1.0+1
+version: 0.0.2
 
 # Environment requirements for the brick
 environment:
@@ -21,10 +22,11 @@ vars:
   use_bloc:
     type: boolean
     description: "Specifies whether the feature should use BLoC for state management."
-    prompt: "Would you like to implement state management for this feature?"
+    prompt: "Would you like to implement Bloc state management for this feature?"
 
   # Test directory variable
   test_dir:
     type: boolean
+    default: false
     description: "Specifies whether a test directory structure including subfolders and files should be created."
     prompt: "Would you like to create a feature folder in the test directory?"

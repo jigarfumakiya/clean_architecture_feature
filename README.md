@@ -27,6 +27,7 @@ configuration by adding the following code to your **mason.yaml** file:
 
 ```yaml
 bricks:
+#  clean_architecture_feature: 0.0.2
   clean_architecture_feature: 0.0.2
 ```
 
@@ -42,10 +43,11 @@ mason make clean_architecture_feature
 
 The following table outlines the variables that can be used when generating a new feature folder:
 
-| Variable | Description                | Required   | Type     |
-| -------- | -------------------------- | ---------- | -------- |
-| `feature_name`   | 🏷️ Name of the feature              | `Yes`      | `string` |
-| `use_bloc`   | 🧱 Determine if you need BLoC for the feature or not              | `Yes`      | `bool` |
+| Variable       | Description                | Required | Type     |
+|----------------| -------------------------- |----------| -------- |
+| `feature_name` | 🏷️ Name of the feature              | `Yes`    | `string` |
+| `use_bloc`     | 🧱 Determine if you need BLoC for the feature or not              | `Yes`    | `bool` |
+| `test_dir`     | 🧱 Determine if you need BLoC for the feature or not              | `No`     | `bool` |
 
 ## Output 📦
 
