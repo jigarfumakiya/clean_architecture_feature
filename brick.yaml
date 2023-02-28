@@ -1,31 +1,32 @@
+# Name and description of the brick
 name: clean_architecture_feature
 description: A building block to easily create feature folders using the Clean Architecture approach.
 repository: https://github.com/jigarfumakiya/clean_architecture_feature
-version: 0.0.1
-# The following defines the version and build number for your brick.
-# A version number is three numbers separated by dots, like 1.2.34
-# followed by an optional build number (separated by a +).
 
-# The following defines the environment for the current brick.
-# It includes the version of mason that the brick requires.
+# Version and build number of the brick
+version: 0.0.2
+
+# Environment requirements for the brick
 environment:
   mason: ">=0.1.0-dev.42 <0.1.0"
 
-# Variables specify dynamic values that your brick depends on.
-# Zero or more variables can be specified for a given brick.
-# Each variable has:
-#  * a type (string, number, boolean, enum, or array)
-#  * an optional short description
-#  * an optional default value
-#  * an optional list of default values (array only)
-#  * an optional prompt phrase used when asking for the variable
-#  * a list of values (enums only)
+# Variables for the brick that can be dynamically configured
 vars:
+  # Feature name variable
   feature_name:
     type: string
-    description: Name of the folder, files, and widget.
-    prompt: What is the name of feature?
+    description: "The name of the feature, used for naming the folder, files, and widget."
+    prompt: "What would you like to name your feature?"
+
+  # Use BLoC variable
   use_bloc:
     type: boolean
-    description: Determine whether feature needed statement or not.
-    prompt: Would you like to implement state management for this feature
+    description: "Specifies whether the feature should use BLoC for state management."
+    prompt: "Would you like to implement Bloc state management for this feature?"
+
+  # Test directory variable
+  test_dir:
+    type: boolean
+    default: false
+    description: "Specifies whether a test directory structure including subfolders and files should be created."
+    prompt: "Would you like to create a feature folder in the test directory?"
