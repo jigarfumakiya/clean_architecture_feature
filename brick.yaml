@@ -4,7 +4,7 @@ description: A building block to easily create feature folders using the Clean A
 repository: https://github.com/jigarfumakiya/clean_architecture_feature
 
 # Version and build number of the brick
-version: 0.0.3
+version: 0.0.5
 
 # Environment requirements for the brick
 environment:
