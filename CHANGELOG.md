@@ -1,6 +1,13 @@
-# 0.0.3
-
+# 0.0.5
 - Fixed issue with conflict on gitignore
+- Updated README
+
+# 0.0.3
+ Updated README.md file with following changes
+- Fixed typo
+- Added additional links to point to clean-architecture
+- Readme enhancements
+
 
 # 0.0.2
 

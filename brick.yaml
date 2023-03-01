@@ -6,6 +6,7 @@ repository: https://github.com/jigarfumakiya/clean_architecture_feature
 # Version and build number of the brick
 version: 0.0.5
 
+
 # Environment requirements for the brick
 environment:
   mason: ">=0.1.0-dev.40 <0.1.0"
