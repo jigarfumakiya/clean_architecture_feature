@@ -30,7 +30,8 @@ mason make clean_architecture_feature
 ## Variables ✨
 
 The following table outlines the variables that can be used when generating a new feature folder:
-Look for the variables in the **brick.yaml** file in github [brick.yaml](https://github.com/jigarfumakiya/clean_architecture_feature/blob/main/brick.yaml)
+Look for the variables in the **brick.yaml** file in
+github [brick.yaml](https://github.com/jigarfumakiya/clean_architecture_feature/blob/main/brick.yaml)
 
 | Variable       | Description                | Required | Type     |
 |----------------| -------------------------- |----------| -------- |
@@ -75,17 +76,17 @@ lib/
 ## Contributors 💻
 
 > Jigar Fumakiya - [Linkedin](https://www.linkedin.com/in/jigar-fumakiya-3080b8b7/)
-> 
-  > Ajay KV - [Linkedin](https://www.linkedin.com/in/iamajaykv/)
 
 #### if you found this brick helpful, please consider showing your support by giving it a ⭐ on GitHub. Your support is greatly appreciated! 🙏🎉 Additionally, feel free to let me know if you have any suggestions for additional features.
+
 <br>
 <br>
 
-To learn more about the Clean Architecture approach, check out the [Reso Coder](https://resocoder.com/) [Clean Architecture Course](https://resocoder.com/2019/08/27/flutter-tdd-clean-architecture-course-1-explanation-project-structure/).
+To learn more about the Clean Architecture approach, check out
+the [Reso Coder](https://resocoder.com/) [Clean Architecture Course](https://resocoder.com/2019/08/27/flutter-tdd-clean-architecture-course-1-explanation-project-structure/)
+.
 <br>
 <br>
-
 
 ## License 🍀
 
