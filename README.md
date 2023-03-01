@@ -10,7 +10,7 @@ configuration by adding the following code to your **mason.yaml** file:
 
 ```yaml
 bricks:
-  clean_architecture_feature: 0.0.2
+  clean_architecture_feature: 0.0.3
 ```
 
 # Usage
