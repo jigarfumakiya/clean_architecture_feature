@@ -30,3 +30,13 @@ vars:
     default: false
     description: "Specifies whether a test directory structure including subfolders and files should be created."
     prompt: "Would you like to create a feature folder in the test directory?"
+
+  need_remote_and_local_data_source:
+    type: enum
+    values:
+      - "Both"
+      - "Remote only"
+      - "Local only"
+      - "cubit"
+    description: "Specifies whether both remote and local data sources or only one of them should be created."
+    prompt: "What type of data source do you want to create? (Both, Remote only, Local only)"
